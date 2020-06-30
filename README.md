@@ -16,7 +16,7 @@ Simply merge the branch "mergeme" with master.
 ### Challenge 2
 **Find the commit that broke master**
 
-Inside the master branch, you'll find a script called *broken.sh*. One of the commits broke this script. You'll need to find the commit ID!
+Inside the master branch, you'll find a script called *broken.sh*. One of the commits broke this script. You'll need to find the commit ID! Add that commit ID to a file called "broken.txt".
 
 ### Challenge 3
 **Rebase a branch with master**
