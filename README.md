@@ -1,7 +1,12 @@
 # git-games-workshop2
 A collection of git based challenges for GrizzlyHacks' second git workshop
 
-Make sure to fetch *all* branches using `git fetch --all`!
+### Instructions
+
+1. Fork this repository to your own account.
+2. Clone *your personal* fork and start the challenges.
+3. Make sure you fetch *all* of the branches using `git fetch --all`
+4. As you complete each challenge, submit a pull request.
 
 ### Challenge 1
 **Merge a branch with master**
