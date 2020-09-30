@@ -1,7 +1,7 @@
 # git-games-workshop2
 A collection of git based challenges for GrizzlyHacks' second git workshop
 
-### Instructions
+## Instructions
 
 1. Fork this repository to your own account.
 2. Clone *your personal* fork.
@@ -17,6 +17,8 @@ Simply merge the branch "mergeme" with master.
 **Find the commit that broke master**
 
 Inside the master branch, you'll find a script called *broken.sh*. One of the commits broke this script. You'll need to find the commit ID! Add that commit ID to a new file called "broken.txt".
+
+**hint** *broken.sh was fine at commit "8f4d9f6eb7e579a2cd5611c2dd3a296e96ca555f". The change that broke it came sometime after.*
 
 ### Challenge 3
 **Rebase a branch onto master**
