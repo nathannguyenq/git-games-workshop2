@@ -4,6 +4,9 @@ class Broken
 {
 	public static void main(String[] args)
 	{
-		System.out.println("Hello World!");
+		Scanner stdin = new Scanner(System.in);
+		
+		System.out.print("What's your name: ");
+		String name = stdin.nextLine();
 	}
 }
