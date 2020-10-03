@@ -8,5 +8,7 @@ class Broken
 		
 		System.out.print("What's your name: ");
 		String name = stdin.nextLine();
+		
+		System.out.println("Welcome to Challenge 2, " + name + "!")
 	}
 }
