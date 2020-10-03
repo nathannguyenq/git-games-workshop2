@@ -10,5 +10,6 @@ class Broken
 		String name = stdin.nextLine();
 		
 		System.out.println("Welcome to Challenge 2, " + name + "!")
+		System.out.println("Good luck!");
 	}
 }
