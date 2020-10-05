@@ -16,7 +16,7 @@ Simply merge the branch "mergeme" with master.
 ### Challenge 2
 **Find the commit that broke master**
 
-Inside the master branch, you'll find a program called *Broken.java*. Everything was working fine, and we were able to cmopile the program using `javac Broken.java`, but recently someone made a commit that broke it! Now the output of `javac Broken.java` looks like this:
+Inside the master branch, you'll find a program called *Broken.java*. Everything was working fine, and we were able to compile the program using `javac Broken.java`. Recently, someone made a commit that broke our program, and now the output of `javac Broken.java` looks like this:
 
 ```
 Broken.java:12: error: ';' expected
