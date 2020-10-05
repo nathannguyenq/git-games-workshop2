@@ -16,9 +16,20 @@ Simply merge the branch "mergeme" with master.
 ### Challenge 2
 **Find the commit that broke master**
 
-Inside the master branch, you'll find a script called *broken.sh*. One of the commits broke this script. You'll need to find the commit ID! Add that commit ID to a new file called "broken.txt".
+Inside the master branch, you'll find a program called *Broken.java*. Everything was working fine, and we were able to cmopile the program using `javac Broken.java`, but recently someone made a commit that broke it! Now the output of `javac Broken.java` looks like this:
 
-**hint** *broken.sh was fine at commit "8f4d9f6eb7e579a2cd5611c2dd3a296e96ca555f". The change that broke it came sometime after.*
+```
+Broken.java:12: error: ';' expected
+                System.out.println("Welcome to Challenge 2, " + name + "!")
+                                                                           ^
+1 error
+```
+
+Use `git log` to find the commit that broke the program and add that commit ID to a new file called "broken.txt".
+
+**hint** *Broken.java was fine at commit "4924d9d3141af5fa2d4146abeb0e8a2450a849bd". The change that broke it came sometime after.*
+
+**hint** *Based on the output of `javac Broken.java`, look for a commit that includes a line with a missing semicolon.*
 
 ### Challenge 3
 **Rebase a branch onto master**
