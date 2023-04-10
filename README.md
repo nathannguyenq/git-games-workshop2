@@ -35,3 +35,5 @@ Use `git log` to find the commit that broke the program and add that commit ID t
 **Rebase a branch onto master**
 
 There is a branch called "rebaseme". Add it to master without using `git merge`.
+
+**Bonus:** Use interactive rebase to squash the two commits into one.
