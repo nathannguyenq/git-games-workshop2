@@ -3,7 +3,7 @@ A collection of git based challenges for GrizzlyHacks' second git workshop
 
 ## Instructions
 
-1. Fork this repository to your own account.
+1. Fork this repository to your own account. Make sure to unselect the checkbox to copy _all_ branches.
 2. Clone *your personal* fork.
 3. Make sure you fetch *all* of the branches using `git fetch --all`
 4. As you complete each challenge, submit a pull request.
